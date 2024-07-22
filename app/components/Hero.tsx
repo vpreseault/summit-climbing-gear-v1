@@ -1,6 +1,5 @@
 import React from "react";
 import "../globals.css";
-import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -18,14 +17,7 @@ const Hero = () => {
         <button className="buy-gear-button">Buy Gear</button>
       </div>
       <div className="hero-image">
-        <Image
-          src={"/./rock-climbing-Banff.jpg"}
-          alt={"title"}
-          width="0"
-          height="0"
-          sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
-        />
+        <p>Picture of outdoor climber</p>
       </div>
     </section>
   );
